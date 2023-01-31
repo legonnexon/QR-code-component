@@ -39,32 +39,100 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Frontend Mentor - QR code component solution
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Table of contents
 
-### Code Splitting
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-### Analyzing the Bundle Size
+## Overview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Screenshot
 
-### Making a Progressive Web App
+![](./screenshot.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-### Deployment
+## My process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Built with
 
-### `npm run build` fails to minify
+- HTML5
+- CSS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### What I learned
+
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+This is my first project i make using React, so I learn everthing of React and JavaScript in this project.
+
+```js
+import './App.css';
+import styled from 'styled-components'
+import qr_code from './images/image-qr-code.png'
+
+const Imagen = styled.img`
+margin: 0 auto;
+border-radius: 15px;
+`;
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+I make to tutorials in the React website
+```js
+const products = [
+  { title: 'Cabbage', isFruit:false, id: 1 },
+  { title: 'Garlic', isFruit:false, id: 2 },
+  { title: 'Apple', isFruit:true, id: 3 },
+]
+
+function MyButton({ count, onCLick }) {  
+  return (
+    <button onClick={onCLick}>
+      Clicked {count} times
+    </button>
+  );
+}
+```
+
+### Continued development
+
+I like very much this project, I want learn more about React and CSS for one day I won a job of Web Developer or something similar. This project is ended i not contiueupgrading this project because I'll doing another project mayber better ou similar tho this.
+
+### Useful resources
+
+- [w3schools](https://www.w3schools.com) - This helped me for resolve somes problems for React and CSS
+- [Quick Start React](https://beta.reactjs.org/learn) - This is an amazing article which helped me to make everthing.
+- [Stackoverflow](https://stackoverflow.com) - I not need say nothing about this site all right. Help with everthing, everywhere.
+
+## Author
+
+- Website - [Joao Pedro Github](https://github.com/legonnexon)
+- Frontend Mentor - [@legonnexon](https://www.frontendmentor.io/profile/legonnexon)
+
